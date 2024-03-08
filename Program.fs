@@ -5,7 +5,7 @@
 /// error in processing the inputs, e.g., integer overflows, then the function
 /// should simply return -1 (do not raise an exception).
 let prob1 a b c =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Define a function `prob2` that takes in a string and returns a new string
 /// that ends with a newline character '\n'. The function appends a newline
@@ -17,7 +17,7 @@ let prob1 a b c =
 /// String.length: String.length s returns the length of the string s. Finally,
 /// you can append two strings using the + operator.
 let prob2 (str: string) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `prob3` that takes in as input three floating point numbers
 /// a, b, and c, and returns a root of the quadratic formula $ax^2 + bx + c =
@@ -26,7 +26,7 @@ let prob2 (str: string) =
 /// there are no real roots, then the function should return nan, which is a
 /// special floating point number representing "Not a Number".
 let prob3 a b c =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Define a function `prob4` that returns the number of days in a month. The
 /// function takes in as input an integer representing a month, and outputs the
@@ -34,7 +34,7 @@ let prob3 a b c =
 /// returns -1 for any error cases. For example, if a number big than 12 is
 /// given as input, then the function should return -1.
 let prob4 month =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 [<EntryPoint>]
 let main _args =
